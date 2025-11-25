@@ -37,8 +37,8 @@ public class Main {
         dosen.mengajar();
 
         System.out.println("\n--- Contoh Validasi Gagal ---");
-        mhs.setNim("x123"); // salah
-        mhs.setIpk(4.8); // salah
+        mhs.setNim("x123");
+        mhs.setIpk(4.8);
         dosen.setNidn("123"); // salah
 
         System.out.println("\n--- Setelah Percobaan Validasi ---");
